@@ -1,0 +1,11 @@
+#CACULATOR FOR SIMPLE MATHEMATICAL EXPRESSION
+input1=int(input("give value: "))
+operator = input("give operator: ")
+input2=int(input("give value: "))
+if operator=="+":print(input1 + input2)
+elif operator=="-":print(input1 - input2)
+elif operator=="*":print(input1 * input2)
+elif operator=="/":print(input1 / input2)
+elif operator=="%":print(input1 % input2)
+elif operator=="**":print(input1 ** input2)
+else:print(" Given Operator is not found, please check provided operator and correct it")
